@@ -159,7 +159,7 @@ function buildBoard() {
       boardSlot.attr("word-multiplier", "2");
       boardSlot.attr("letter-multiplier", "1");
       boardSlot.css({
-        "background-image": "url(../content/scrabble_board_tile_dws.jpg)",
+        "background-image": "url(./content/scrabble_board_tile_dws.jpg)",
       });
     } else if (i === 6 || i === 8) {
       // double letter score here
