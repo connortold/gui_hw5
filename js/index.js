@@ -166,14 +166,14 @@ function buildBoard() {
       boardSlot.attr("letter-multiplier", "2");
       boardSlot.attr("word-multiplier", "1");
       boardSlot.css({
-        "background-image": "url(../content/scrabble_board_tile_dls.jpg)",
+        "background-image": "url(./content/scrabble_board_tile_dls.jpg)",
       });
     } else {
       // regular slot
       boardSlot.attr("letter-multiplier", "1");
       boardSlot.attr("word-multiplier", "1");
       boardSlot.css({
-        "background-image": "url(../content/scrabble_board_tile_reg.jpg)",
+        "background-image": "url(./content/scrabble_board_tile_reg.jpg)",
       });
     }
     boardSlot.droppable({
