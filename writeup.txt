@@ -1,0 +1,21 @@
+* author: Connor Tolderlund
+* email: connor_tolderlund@student.uml.edu
+
+Working features:
+    1. Tiles are delt based on number of tiles remaining
+    2. Tiles cannot be placed on any slot once the first tile has been placed
+        - tiles after the first can only be placed directly before or after an already placed tile
+    3. "Next Round" button stores off score and re-deals tiles to player
+    4. Board cleared after each round
+
+    I used a few globals to mantain the state of the program. This works fine for a small  website like 
+    this, but for a more scalable option, a class should be used. 
+
+Somewhat working (bugs noted):
+    1. No slots on the tile rack, so the position when placing tiles on the rack is arbitrary (not a req)
+Not working:
+    1. Words arent checked to see if they are valid scrabble words (extra cred)
+
+
+repo: https://github.com/connortold/gui_hw5
+gh pages: https://github.com/connortold/gui_hw5
